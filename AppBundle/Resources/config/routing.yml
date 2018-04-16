@@ -1,0 +1,14 @@
+homepage:
+    path:      /
+    defaults:
+        _controller: UNAppBundle:Diary:index
+        
+github_redirect_url:
+    path: /auth
+    defaults:
+        _controller: UNAppBundle:Security:adminAuth
+
+logout:
+    path:      /logout
+    defaults:
+        _controller: UNAppBundle:Security:logout
